@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="aruco2">
+
+	<link name="aruco2">
+		<inertial>
+			<origin xyz="0 0 0.0" rpy="0 0 0"/>
+			<mass value="0.1"/>
+			<inertia
+				ixx="0.000015" ixy="0.0" ixz="0.0"
+				iyy="0.000015" iyz="0.0"
+				izz="0.000015"/>
+		</inertial>
+		<visual>
+			<geometry>
+				<mesh filename="file://$(find nikiro_gazebo)/models/arUco_2/aruco2.dae"/>
+			</geometry>
+			<origin xyz = "0 0 0" rpy = "0 0 0"/>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="file://$(find nikiro_gazebo)/models/arUco_2/aruco2.dae"/>
+			</geometry>
+			<origin xyz = "0 0 0" rpy = "0 0 0"/>
+		</collision>
+	</link>
+
+
+</robot>
