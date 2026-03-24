@@ -196,7 +196,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 <div align="center">
 
-Built with 🤖 by **Logesh**  
+Built with 🤖 by **Logesh S (Loki)**  
 *Simulating the future, one robot at a time.*
 
 </div>
