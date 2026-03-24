@@ -15,6 +15,7 @@
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue?style=for-the-badge&logo=ros)](https://docs.ros.org/en/humble/)
 [![Gazebo](https://img.shields.io/badge/Gazebo-Classic-orange?style=for-the-badge)](https://classic.gazebosim.org/)
 [![Nav2](https://img.shields.io/badge/Nav2-Stack-green?style=for-the-badge)](https://nav2.ros.org/)
+[![OpenCV](https://img.shields.io/badge/Open-CV-red?style=for-the-badge)](https://opencv.org/)
 
 
 </div>
