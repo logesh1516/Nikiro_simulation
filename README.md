@@ -159,17 +159,17 @@ nikiro_simulation/
 
 <div align="center">
 
-| AMR Navigation | SLAM Mapping |
+| Mycobot Moveit2 | Conveyor |
 |:-:|:-:|
-| ![AMR Nav](https://github.com/user-attachments/assets/aef01611-3f4d-450a-b539-3f6b1ba52c6d) | ![Mapping](https://github.com/user-attachments/assets/dd4af00a-3e8d-4e7c-a134-7c5d580e141b) |
+| ![mycobot](https://github.com/user-attachments/assets/aef01611-3f4d-450a-b539-3f6b1ba52c6d) | ![conveyor](https://github.com/user-attachments/assets/dd4af00a-3e8d-4e7c-a134-7c5d580e141b) |
 
-| Conveyor System | MyCobot Arm |
+| Full Environment | AMR Navigatio(SLAM)|
 |:-:|:-:|
-| ![Conveyor](https://github.com/user-attachments/assets/f7070e00-396c-4c26-96d4-45eea8033aa4) | ![MyCobot](https://github.com/user-attachments/assets/56a8ea1b-e843-4ad6-9a2e-66fd26833575) |
+| ![environment](https://github.com/user-attachments/assets/f7070e00-396c-4c26-96d4-45eea8033aa4) | ![Slam](https://github.com/user-attachments/assets/56a8ea1b-e843-4ad6-9a2e-66fd26833575) |
 
-| Full Environment | Object Detection |
+| Object Detection | Pick & Place |
 |:-:|:-:|
-| ![Env](https://github.com/user-attachments/assets/253ebebc-489d-4ee7-89aa-68d6d321e1ea) | ![Detection](https://github.com/user-attachments/assets/b163a8eb-8576-47a0-bdef-fbba2a5f7504) |
+| ![Obj](https://github.com/user-attachments/assets/253ebebc-489d-4ee7-89aa-68d6d321e1ea) | ![p&p](https://github.com/user-attachments/assets/b163a8eb-8576-47a0-bdef-fbba2a5f7504) |
 
 </div>
 
