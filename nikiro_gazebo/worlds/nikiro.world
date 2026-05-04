@@ -1,0 +1,80 @@
+<sdf version="1.6">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <name>coe</name>
+      <uri>model://coe</uri>
+      <pose>0 0 0 0 0 1.57</pose>
+    </include>
+    <gui fullscreen="0">
+      <camera name="user_camera">
+        <pose frame="">9.0 -12.0 6.0 0.0 0.3 2.2</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <light name="light1" type="point">
+      <pose frame="">1.3 -1.4 2 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+    </light>
+    <light name="light2" type="point">
+      <pose frame="">1.3 1.4 2 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>0.1 0.1 -0.9</direction>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>0</cast_shadows>
+    </light>
+    <include>
+      <uri>model://conveyor_belt</uri>
+      <name>conveyor</name>
+      <pose>-1.3 -1.1 0.015 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://stand</uri>
+      <name>stand</name>
+      <pose>-1 -1 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://rack</uri>
+      <name>rack</name>
+      <pose>-0.8 -0.8 0.02 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://ir_sensor_1</uri>
+      <name>ir_sensor_1</name>
+      <pose>-1.510276 -1.029613 0.120375 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://ir_sensor_2</uri>
+      <name>ir_sensor_2</name>
+      <pose>-1.090327 -1.029613 0.120375 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://wall_1</uri>
+      <name>wall_1</name>
+      <pose>1.192255 -2.991474 0.500000 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://wall_2</uri>
+      <name>wall_2</name>
+      <pose>4.865074 0.005608 0.500000 0 0 0</pose>
+    </include>
+  </world>
+</sdf>
